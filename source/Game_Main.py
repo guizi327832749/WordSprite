@@ -50,7 +50,7 @@ class TypingGame(object):
 
     # 游戏等级对照字典
     game_level_dict = {
-        1: {"word_fall_speed": 0.3, "level_text": "简单", "level_color": "green"},
+        1: {"word_fall_speed": 0.1, "level_text": "简单", "level_color": "green"},
         2: {"word_fall_speed": 0.5, "level_text": "上手", "level_color": "blue"},
         3: {"word_fall_speed": 1.0, "level_text": "中等", "level_color": "orange"},
         4: {"word_fall_speed": 1.5, "level_text": "困难", "level_color": "red"},
